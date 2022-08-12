@@ -1,14 +1,22 @@
 {
-  "name": "home-tailwind",
+  "name": "starbuck-tailwind",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "build": "npx tailwindcss -i ./src/input.css -o ./dist/style.css --watch"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zameariislam/home-tailwind.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zameariislam/home-tailwind/issues"
+  },
+  "homepage": "https://github.com/zameariislam/home-tailwind#readme",
   "devDependencies": {
     "tailwindcss": "^3.1.8"
   }
